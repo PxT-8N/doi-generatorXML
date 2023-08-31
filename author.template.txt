@@ -1,0 +1,4 @@
+				<person_name sequence="$seq" contributor_role="author">
+					<given_name>$fname</given_name>
+					<surname>$lname</surname>
+				</person_name>

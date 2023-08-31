@@ -1,0 +1,15 @@
+		<conference_paper publication_type="full_text">
+			<contributors>
+				$authors
+			</contributors>
+			<titles>
+				<title>$title</title>
+			</titles>
+			<publication_date>
+				<year>$year</year>
+			</publication_date>
+			<doi_data>
+				<doi>$doi</doi>
+				<resource>$url</resource>
+			</doi_data>
+		</conference_paper>

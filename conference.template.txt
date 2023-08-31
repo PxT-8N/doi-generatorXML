@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doi_batch xmlns="http://www.crossref.org/schema/4.4.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.crossref.org/schema/4.4.2 http://www.crossref.org/schemas/crossref4.4.2.xsd" version="4.4.2">
+	<head>
+		<doi_batch_id>$batch_id</doi_batch_id>
+		<timestamp>$timestamp</timestamp>
+		<depositor>
+            <depositor_name>$depositor_name</depositor_name> 
+            <email_address>$email_address</email_address>
+		</depositor>
+        <registrant>$registrant</registrant>
+	</head>
+<body>
+	<conference>
+        <event_metadata>
+            <conference_name>$conference_name</conference_name>
+            <conference_theme>$conference_theme</conference_theme>
+            <conference_acronym>$conference_acronym</conference_acronym>
+            <conference_sponsor>$conference_sponsor</conference_sponsor>
+            <conference_number>$conference_number</conference_number>
+            <conference_location>$conference_location</conference_location>
+            <conference_date start_month="$start_month" start_year="$start_year" start_day="$start_day"  end_year="$end_year" end_month="$end_month" end_day="$end_day" />
+        </event_metadata>
+		<proceedings_metadata language="en">
+            <proceedings_title>$proceedings_title</proceedings_title>
+            <proceedings_subject>$proceedings_subject</proceedings_subject>
+			<publisher>
+                <publisher_name>$publisher_name</publisher_name>
+                <publisher_place>$publisher_place</publisher_place>
+			</publisher>
+			<publication_date>
+				<year>$publication_date_year</year>
+			</publication_date>
+			<isbn>$isbn</isbn>
+			<doi_data>
+				<doi>$processings_doi</doi>
+				<timestamp>$timestamp</timestamp>
+				<resource>$processings_resource</resource>
+			</doi_data>
+		</proceedings_metadata>
+$conference_papers
+		</conference>
+	</body>
+</doi_batch>
