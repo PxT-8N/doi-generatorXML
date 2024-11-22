@@ -1,0 +1,15 @@
+# $Title
+
+Paper presented at the $conference_name
+
+https://doi.org/$DOI
+
+Title: $Title
+
+Authors: $Authors
+
+Abstract: $Abstract
+
+Order the full paper: https://www.istvs.org/proceedings-orders/paper
+
+ISTVS members: receive three papers per year as part of your membership via the ISTVS Member Portal: https://istvs.knack.com/member-portal/
