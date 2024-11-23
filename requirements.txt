@@ -1,3 +1,4 @@
-pandas
-tqdm
-jupyterlab
+pandas==2.2.3
+tqdm==4.67.0
+jupyterlab==4.3.1
+openpyxl==3.1.5
