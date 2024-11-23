@@ -1,15 +1,16 @@
-# $Title
+# $id / $Title
 
-Paper presented at the $conference_name
+## Authors
+$Authors
 
-https://doi.org/$DOI
+{% hint style="info" %}
+*Paper presented at $conference_acronym | $conference_name*  
+[https://doi.org/$DOI](https://doi.org/$DOI)  
+{% endhint %}
 
-Title: $Title
+## Abstract
+$Abstract
 
-Authors: $Authors
-
-Abstract: $Abstract
-
-Order the full paper: https://www.istvs.org/proceedings-orders/paper
-
-ISTVS members: receive three papers per year as part of your membership via the ISTVS Member Portal: https://istvs.knack.com/member-portal/
+-----  
+Full paper purchase: [https://www.istvs.org/proceedings-orders/paper](https://www.istvs.org/proceedings-orders/paper)  
+ISTVS members receive three complimentary papers per year: [https://www.istvs.org/members](https://www.istvs.org/members)
