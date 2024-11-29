@@ -4,7 +4,8 @@
 $Authors
 
 {% hint style="info" %}
-*Paper presented at $conference_acronym | $conference_name*  
+Paper presented at $conference_acronym | $conference_name  
+Keywords: $Keywords  
 [https://doi.org/$DOI](https://doi.org/$DOI)  
 {% endhint %}
 
